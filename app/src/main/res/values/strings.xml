@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Game Project</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="team_member">Elaina Michelle Hill\nHye Won Chang \nQi Tang</string>
+    <string name="ID">University of Virginia \nCS 2110 \nSpring 2015</string>
+</resources>

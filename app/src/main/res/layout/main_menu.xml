@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/main_menu"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EASY"
+        android:id="@+id/easy"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="30dp"
+        android:onClick="startTheGame"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEDIUM"
+        android:id="@+id/medium"
+        android:textSize="30dp"
+        android:layout_below="@+id/easy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HARD"
+        android:id="@+id/hard"
+        android:textSize="30dp"
+        android:layout_marginTop="119dp"
+        android:layout_below="@+id/medium"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
